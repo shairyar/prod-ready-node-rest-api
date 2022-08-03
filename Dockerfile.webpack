@@ -8,7 +8,7 @@ WORKDIR /usr/src/app
 COPY dist/api.bundle.js .
 
 #expose the port
-EXPOSE 3070
+EXPOSE 8080
 
 # command to run when intantiate an image
 CMD ["node","api.bundle.js"]

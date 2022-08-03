@@ -14,7 +14,7 @@ RUN npm install
 COPY ./ .
 
 #expose the port
-EXPOSE 3070
+EXPOSE 8080
 
 # command to run when intantiate an image
 CMD ["npm","start"]

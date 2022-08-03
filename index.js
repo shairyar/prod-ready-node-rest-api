@@ -5,7 +5,7 @@ const logger = require('./logger/logger');
 
 const app = express();
 
-const port = process.env.PORT || 3070;
+const port = process.env.PORT || 8080;
 
 console.log('environment::::::', process.env.ENVIRONMENT);
 console.log('DB_CONNECTION_STR:::::::::::::', process.env.DB_CONNECTION_STR);
