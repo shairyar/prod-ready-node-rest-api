@@ -7,7 +7,10 @@ const logger = require('../logger/logger');
 const app = express();
 
 // array to hold users
-const users = [{ firstName: 'fnam1', lastName: 'lnam1', userName: 'username1' }];
+const users = [
+  { firstName: 'fnam1', lastName: 'lnam1', userName: 'username1' },
+  { firstName: 'fnam2', lastName: 'lnam2', userName: 'username2' },
+];
 
 // request to get all the users
 app.get('/users', (req, res) => {
