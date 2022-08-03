@@ -4,7 +4,7 @@ const appsignal = new Appsignal({
   active: true,
   name: "node-app",
   logLevel: "trace",
-  log: "stdout"
+  logPath: "logs"
 });
 
 module.exports = { appsignal };
