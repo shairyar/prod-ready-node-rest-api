@@ -1,5 +1,5 @@
 # from base image node
-FROM node:8.11-slim
+FROM node:16
 
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
